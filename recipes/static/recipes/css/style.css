@@ -104,6 +104,7 @@
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
         gap: var(--spacing-gutter-large);
+        justify-items: center;
     }
 
     .main-content-detail .recipe-list-item {
